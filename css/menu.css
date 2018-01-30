@@ -37,22 +37,19 @@ div#content {
     padding: 15px;
 }
 
-div#data {
+div.data {
     margin-top: 20px;
 }
 
-div#data > div > div.form-group {
-    border-style: solid;
-    border-width: 1px 1px 1px 1px;
-    border-color: #222;
+div.data > div > div.form-group {
+    border: 1px solid #222;
     text-align: left;
     border-radius: 5px
 }
 
 h3 {
-    border-style: solid;
-    border-width: 0px 0px 1px 0px;
-    border-color: #444;
+    border: 0px solid #444;
+    border-bottom-width: 1px;
     color: #444;
 }
 
@@ -62,9 +59,7 @@ h3 {
 }
 
 .skills-desc > span {
-    border-style: solid;
-    border-width: 1px 1px 1px 1px;
-    border-color: #a3a375;
+    border: 1px solid #a3a375;
     border-radius: 20px;
     margin: 5px;
     padding: 5px;
